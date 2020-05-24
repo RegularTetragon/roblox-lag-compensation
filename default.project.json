@@ -1,0 +1,27 @@
+{
+	"name": "Lag Compensation Testing",
+	"servePort": 8000,
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"RobloxTS": {
+                "$ignoreUnknownInstances": true,
+                "$className": "Folder",
+                "rbxts_include": {
+                    "$path": "include",
+                    "node_modules": {
+                        "$path": "node_modules/@rbxts"
+                    }
+                }
+			}
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"LagCompensation": {
+				"$path": "out\\ServerStorage"
+			}
+        }
+        
+	}
+}
