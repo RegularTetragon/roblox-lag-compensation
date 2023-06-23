@@ -6,7 +6,7 @@
   "dependencies": {
     "@rbxts/types": "^1.0.354",
     "rbx-types": "^1.0.191",
-    "roblox-ts": "^0.2.7"
+    "roblox-ts": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
